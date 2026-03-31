@@ -16,7 +16,7 @@ This project implements an optimal power flow (OPF) algorithm for a 9-bus power 
 ## System Configuration
 
 ### 9-Bus Network
-![Network](9bus_network.png)
+![Network](9bus_network_diagram.png)
 
 - Standard 9-bus benchmark system  
 - Used for optimal power flow analysis  
@@ -24,7 +24,7 @@ This project implements an optimal power flow (OPF) algorithm for a 9-bus power 
 ---
 
 ### Line Connectivity
-![Line Data](line_connections.png)
+![Line Data](line_connection_table.png)
 
 - Defines network topology  
 - Used to construct system matrices  
@@ -46,7 +46,7 @@ This project implements an optimal power flow (OPF) algorithm for a 9-bus power 
 ## Mathematical Model
 
 ### dq-Domain Representation
-![M-Matrix](m_matrix_dq_model.png)
+![M-Matrix](m_matrix_representation.png)
 
 - System equations formulated in dq-coordinates  
 - M-matrix links:
