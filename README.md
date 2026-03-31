@@ -16,7 +16,7 @@ This project implements an optimal power flow (OPF) algorithm for a 9-bus power 
 ## System Configuration
 
 ### 9-Bus Network
-![Network](01_9bus_network.png)
+![Network](9bus_network.png)
 
 - Standard 9-bus benchmark system  
 - Used for optimal power flow analysis  
@@ -24,7 +24,7 @@ This project implements an optimal power flow (OPF) algorithm for a 9-bus power 
 ---
 
 ### Line Connectivity
-![Line Data](02_line_connections.png)
+![Line Data](line_connections.png)
 
 - Defines network topology  
 - Used to construct system matrices  
@@ -46,7 +46,7 @@ This project implements an optimal power flow (OPF) algorithm for a 9-bus power 
 ## Mathematical Model
 
 ### dq-Domain Representation
-![M-Matrix](03_m_matrix_dq_model.png)
+![M-Matrix](m_matrix_dq_model.png)
 
 - System equations formulated in dq-coordinates  
 - M-matrix links:
@@ -216,7 +216,7 @@ Ensures devices only exchange reactive power.
 ## Results
 
 ### Voltage Profile
-![Voltage Results](04_voltage_results_with_facts.png)
+![Voltage Results](voltage_results_with_facts.png)
 
 The optimal solution satisfies voltage constraints:
 
@@ -228,7 +228,7 @@ The optimal solution satisfies voltage constraints:
 ---
 
 ### Line Flow Analysis
-![Line Flow Results](05_line_flow_results_with_facts.png)
+![Line Flow Results](line_flow_results_with_facts.png)
 
 - All line flows remain below limits  
 - Maximum flow: **2.0486 pu (line 3–9)**  
